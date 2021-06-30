@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
+
+@media screen and (max-width: 800px) {
+    #content, aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.card{
+    box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.jumbotron {
+    font-size: 25px;
+    padding: 45px;
+    background-color: #c70039;
+    text-align: center;
+    color: #2c061f;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #f37121;
+}
+
+nav a:hover {
+    color: #ff4646;
+    font-weight: bolder;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav {
+    background-color: #252525;
+    padding: 4px;
+    position: sticky;
+    top: 0;
+}
+
+body {
+    font-family: 'Philosopher', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: inline;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+    background-color: #433d3c;
+    color: #f6ecf0
+}
+
+#content {
+    float: left;
+    width: 75%;
+    text-align: justify;
+}
+
+.image1 {
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+}
+
+.image2 {
+    margin: 0 auto;
+    display: block;
+    width: 40%;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+    text-align: justify;
+}
+
+footer {
+    padding: 20px;
+    color: #23120b;
+    background-color: #c70039;
+    text-align: center;
+    font-weight: bold;
+}
+
+#italic {
+    font-style: italic;
+}
+
+p {
+    text-indent: 30px;
+}
+
+.profil header {
+    text-align: center;
+}
+
+#profpic {
+    max-width: 100%;
+    width: 80%;
+    height: 50%;
+    border-radius: 50%;
+    margin: 30px auto;
+}
+
+#contact {
+    padding: 10px;
+    margin: 10px auto 0 auto;
+    background-color: #23120b;
+    border-radius: 50%;
+    text-align: center;
+}
+
+h2 {
+    background-color: #212121;
+    padding: 10px;
+    color: #ec5858;
+}
+
+h3 {
+    background-color: #222831;
+    padding: 5px;
+    color: #f2aaaa;
+}
